@@ -272,9 +272,6 @@ Bilingual: EN-DE 5.2M  Monolingual: DE 226M
       <td>34.7</td>
       <td>35.2</td>
    </tr>
-   <tr>
-      <td></td>
-   </tr>
 </table>
 
 
