@@ -17,9 +17,17 @@ Freitag et al. (2019) train Automatic Post-Editing (APE) models using the Round-
 
 ## Experiment Results
 
-### WMT14 EN-DE
+### SSE Model
+We use 24M cleaned English monolingual data to train the SSE model. During training, we calculate the similarity between each pair of MT and original sentence, and then filter out about 10% pairs that differ the most.
+The sse model is traning fellow:
+1. Translate the EN monolingual data to DE<sub>mt</sub>.
+2. Translate the DE<sub>mt</sub> data to EN<sub>mt</sub>.
+3. Filter 10% pairs of <EN<sub>mt</sub>, EN> which differ the most. 
+4. Traning a typical transformer-based seq2seq model using pairs of <EN<sub>mt</sub>, EN><sub>filtered</sub>
 
-Bilingual: EN-DE 4.5M  Monolingual: DE 24M
+### WMT18 EN-DE
+
+Bilingual: EN-DE 5.2M  Monolingual: DE 226M
 
 <table align="center">
    <tr>
@@ -269,15 +277,8 @@ Bilingual: EN-DE 4.5M  Monolingual: DE 24M
    </tr>
 </table>
 
-## Pre-train Model
 
-| model        | Description                  | data                          | arch            | download |
-| ----------- | ---------------------------- | ----------------------------- | --------------- | -------- |
-| EN          | wmt news en sse              | wmt 2021 NewsCrawl Random 30M | tranformer-big | comming  |
-| EN-FR-DE-RU | wmt en fr de multiligual sse | wmt news                      | tranformer-big | comming  |
-| SSE-100     | big multiligual sse ?        |                               |                 |          |
-
-## How To Use
+## Using SSE to Boost your NMT
 
 #### EN SSE
 
