@@ -25,6 +25,8 @@ The sse model is traning fellow:
 3. Filter 10% pairs of <EN<sub>mt</sub>, EN> which differ the most. 
 4. Traning a typical transformer-based seq2seq model using pairs of <EN<sub>mt</sub>, EN><sub>filtered</sub>
 
+Pretrained SSE model and resources is comming...
+
 ### WMT18 EN-DE
 
 Bilingual: EN-DE 5.2M  Monolingual: DE 226M
