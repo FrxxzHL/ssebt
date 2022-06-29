@@ -28,7 +28,7 @@ The sse model is traning fellow:
 ### WMT18 EN-DE
 
 Bilingual: EN-DE 5.2M  Monolingual: DE 226M
-
+Original test set (O), Reverse test set (R) and combined test set (All) from WMT 2014-2017
 <table align="center">
    <tr>
       <td ></td>
