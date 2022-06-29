@@ -168,21 +168,21 @@ Original test set (O), Reverse test set (R) and combined test set (All) from WMT
    </tr>
    <tr>
       <td>&nbsp;&nbsp;+SSE</td>
-      <td><b>33</b><td>
-      <td><b>30.4</b><td>
-      <td><b>36.4</b><td>
-      <td><b>34.2</b><td>
-      <td><b>34.9</b><td>
-      <td><b>32.8</b><td>
-      <td><b>38.8</b><td>
-      <td><b>38.1</b><td>
-      <td><b>39.4</b><td>
-      <td><b>32.6</b><td>
-      <td><b>32</b><td>
-      <td><b>32.7</b><td>
-      <td><b>34.7</b><td>
-      <td><b>33.9</b><td>
-      <td><b>35.3</b><td>
+      <td><b>33</b></td>
+      <td><b>30.4</b></td>
+      <td><b>36.4</b></td>
+      <td><b>34.2</b></td>
+      <td><b>34.9</b></td>
+      <td><b>32.8</b></td>
+      <td><b>38.8</b></td>
+      <td><b>38.1</b></td>
+      <td><b>39.4</b></td>
+      <td><b>32.6</b></td>
+      <td><b>32</b></td>
+      <td><b>32.7</b></td>
+      <td><b>34.7</b></td>
+      <td><b>33.9</b></td>
+      <td><b>35.3</b></td>
    </tr>
    <tr>
       <td>Tagged BT</td>
@@ -204,21 +204,21 @@ Original test set (O), Reverse test set (R) and combined test set (All) from WMT
    </tr>
    <tr>
       <td>&nbsp;&nbsp;+SSE</td>
-      <td><b>33</b><td>
-      <td><b>30.6</b><td>
-      <td><b>36.1</b><td>
-      <td><b>34.5</b><td>
-      <td><b>35.6</b><td>
-      <td>31.8<td>
-      <td><b>39.3</b><td>
-      <td><b>39.8</b><td>
-      <td>38.3<td>
-      <td>32.9<td>
-      <td><b>32.7</b><td>
-      <td>32.2<td>
-      <td><b>34.9</b><td>
-      <td><b>34.7</b><td>
-      <td>34.6<td>
+      <td><b>33</b></td>
+      <td><b>30.6</b></td>
+      <td><b>36.1</b></td>
+      <td><b>34.5</b></td>
+      <td><b>35.6</b></td>
+      <td>31.8</td>
+      <td><b>39.3</b></td>
+      <td><b>39.8</b></td>
+      <td>38.3</td>
+      <td>32.9</td>
+      <td><b>32.7</b></td>
+      <td>32.2</td>
+      <td><b>34.9</b></td>
+      <td><b>34.7</b></td>
+      <td>34.6</td>
    </tr>
    <tr>
       <td>FT</td>
@@ -258,21 +258,21 @@ Original test set (O), Reverse test set (R) and combined test set (All) from WMT
    </tr>
    <tr>
       <td>&nbsp;&nbsp;&nbsp;&nbsp;+SSE</td>
-      <td><b>32.7</b><td>
-      <td>30<td>
-      <td><b>36</b><td>
-      <td><b>34.2</b><td>
-      <td>35.1<td>
-      <td><b>31.9</b><td>
-      <td><b>40.5</b><td>
-      <td><b>40.5</b><td>
-      <td><b>40</b><td>
-      <td><b>33.4</b><td>
-      <td><b>33.2</b><td>
-      <td><b>33</b><td>
-      <td><b>35.2</b><td>
-      <td><b>34.7</b><td>
-      <td><b>35.2</b><td>
+      <td><b>32.7</b></td>
+      <td>30</td>
+      <td><b>36</b></td>
+      <td><b>34.2</b></td>
+      <td>35.1</td>
+      <td><b>31.9</b></td>
+      <td><b>40.5</b></td>
+      <td><b>40.5</b></td>
+      <td><b>40</b></td>
+      <td><b>33.4</b></td>
+      <td><b>33.2</b></td>
+      <td><b>33</b></td>
+      <td><b>35.2</b></td>
+      <td><b>34.7</b></td>
+      <td><b>35.2</b></td>
    </tr>
 </table>
 
