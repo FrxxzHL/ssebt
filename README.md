@@ -96,21 +96,21 @@ Original test set (O), Reverse test set (R) and combined test set (All) from WMT
    </tr>
    <tr>
       <td>&nbsp;&nbsp;+SSE</td>
-      <td>32.1</td>
-      <td>28.5</td>
-      <td>36.7</td>
-      <td>32.3</td>
-      <td>31.9</td>
-      <td>32.5</td>
-      <td>36.4</td>
-      <td>33.7</td>
-      <td>40</td>
-      <td>31.5</td>
-      <td>28.9</td>
-      <td>33.8</td>
-      <td>33.1</td>
-      <td>30.8</td>
-      <td>35.8</td>
+      <td><b>32.1</b></td>
+      <td><b>28.5</b></td>
+      <td><b>36.7</b></td>
+      <td><b>32.3</b></td>
+      <td><b>31.9</b></td>
+      <td><b>32.5</b></td>
+      <td><b>36.4</b></td>
+      <td><b>33.7</b></td>
+      <td><b>40</b></td>
+      <td><b>31.5</b></td>
+      <td><b>28.9</b></td>
+      <td><b>33.8</b></td>
+      <td><b>33.1</b></td>
+      <td><b>30.8</b></td>
+      <td><b>35.8</b></td>
    </tr>
    <tr>
       <td>Sampling BT</td>
@@ -132,15 +132,15 @@ Original test set (O), Reverse test set (R) and combined test set (All) from WMT
    </tr>
    <tr>
       <td>&nbsp;&nbsp;+SSE</td>
-      <td>33.8</td>
-      <td>29.3</td>
+      <td><b>33.8</b></td>
+      <td><b>29.3</b></td>
       <td>38.9</td>
       <td>33.5</td>
       <td>32</td>
-      <td>35.9</td>
+      <td><b>35.9</b></td>
       <td>36.4</td>
       <td>32.6</td>
-      <td>41.7</td>
+      <td><b>41.7</b></td>
       <td>31.7</td>
       <td>28.1</td>
       <td>36</td>
@@ -168,21 +168,21 @@ Original test set (O), Reverse test set (R) and combined test set (All) from WMT
    </tr>
    <tr>
       <td>&nbsp;&nbsp;+SSE</td>
-      <td>33</td>
-      <td>30.4</td>
-      <td>36.4</td>
-      <td>34.2</td>
-      <td>34.9</td>
-      <td>32.8</td>
-      <td>38.8</td>
-      <td>38.1</td>
-      <td>39.4</td>
-      <td>32.6</td>
-      <td>32</td>
-      <td>32.7</td>
-      <td>34.7</td>
-      <td>33.9</td>
-      <td>35.3</td>
+      <td><b>33</b><td>
+      <td><b>30.4</b><td>
+      <td><b>36.4</b><td>
+      <td><b>34.2</b><td>
+      <td><b>34.9</b><td>
+      <td><b>32.8</b><td>
+      <td><b>38.8</b><td>
+      <td><b>38.1</b><td>
+      <td><b>39.4</b><td>
+      <td><b>32.6</b><td>
+      <td><b>32</b><td>
+      <td><b>32.7</b><td>
+      <td><b>34.7</b><td>
+      <td><b>33.9</b><td>
+      <td><b>35.3</b><td>
    </tr>
    <tr>
       <td>Tagged BT</td>
@@ -204,21 +204,21 @@ Original test set (O), Reverse test set (R) and combined test set (All) from WMT
    </tr>
    <tr>
       <td>&nbsp;&nbsp;+SSE</td>
-      <td>33</td>
-      <td>30.6</td>
-      <td>36.1</td>
-      <td>34.5</td>
-      <td>35.6</td>
-      <td>31.8</td>
-      <td>39.3</td>
-      <td>39.8</td>
-      <td>38.3</td>
-      <td>32.9</td>
-      <td>32.7</td>
-      <td>32.2</td>
-      <td>34.9</td>
-      <td>34.7</td>
-      <td>34.6</td>
+      <td><b>33</b><td>
+      <td><b>30.6</b><td>
+      <td><b>36.1</b><td>
+      <td><b>34.5</b><td>
+      <td><b>35.6</b><td>
+      <td>31.8<td>
+      <td><b>39.3</b><td>
+      <td><b>39.8</b><td>
+      <td>38.3<td>
+      <td>32.9<td>
+      <td><b>32.7</b><td>
+      <td>32.2<td>
+      <td><b>34.9</b><td>
+      <td><b>34.7</b><td>
+      <td>34.6<td>
    </tr>
    <tr>
       <td>FT</td>
@@ -258,21 +258,21 @@ Original test set (O), Reverse test set (R) and combined test set (All) from WMT
    </tr>
    <tr>
       <td>&nbsp;&nbsp;&nbsp;&nbsp;+SSE</td>
-      <td>32.7</td>
-      <td>30</td>
-      <td>36</td>
-      <td>34.2</td>
-      <td>35.1</td>
-      <td>31.9</td>
-      <td>40.5</td>
-      <td>40.5</td>
-      <td>40</td>
-      <td>33.4</td>
-      <td>33.2</td>
-      <td>33</td>
-      <td>35.2</td>
-      <td>34.7</td>
-      <td>35.2</td>
+      <td><b>32.7</b><td>
+      <td>30<td>
+      <td><b>36</b><td>
+      <td><b>34.2</b><td>
+      <td>35.1<td>
+      <td><b>31.9</b><td>
+      <td><b>40.5</b><td>
+      <td><b>40.5</b><td>
+      <td><b>40</b><td>
+      <td><b>33.4</b><td>
+      <td><b>33.2</b><td>
+      <td><b>33</b><td>
+      <td><b>35.2</b><td>
+      <td><b>34.7</b><td>
+      <td><b>35.2</b><td>
    </tr>
 </table>
 
