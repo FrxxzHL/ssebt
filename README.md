@@ -524,6 +524,102 @@ Original test set (O), Reverse test set (R) and combined test set (All) from WMT
    </tr>
 </table>
 
+### Paraphrased test sets
+Freitag et al. (2020b,a) argue that BLEU result may vary from human evaluations to a large extent and propose paraphrasing the references to more nature languages. BLEU on those paraphrased test sets are more align with human evaluations. To better demonstrate the effectiveness of SSE, we use their open-sourced paraphrased test sets for evaluation. Result show in below table:
+
+<table>
+   <tr>
+      <td></td>
+      <td>2018p</td>
+      <td>2019p</td>
+      <td>2020p</td>
+      <td>avg</td>
+   </tr>
+   <tr>
+      <td>Bitext</td>
+      <td>12.9</td>
+      <td>12.1</td>
+      <td>9.5</td>
+      <td>11.5</td>
+   </tr>
+   <tr>
+      <td>Beam BT</td>
+      <td>11.0</td>
+      <td>10.3</td>
+      <td>8.6</td>
+      <td>10.0</td>
+   </tr>
+   <tr>
+      <td>&nbsp;&nbsp;+SSE</td>
+      <td><b>13.1</b></td>
+      <td><b>12.6</b></td>
+      <td><b>10.3</b></td>
+      <td><b>12.0</b></td>
+   </tr>
+   <tr>
+      <td>Sampling BT</td>
+      <td>13.1</td>
+      <td>13.0</td>
+      <td>10.8</td>
+      <td>12.3</td>
+   </tr>
+   <tr>
+      <td>&nbsp;&nbsp;+SSE</td>
+      <td><b>13.6</b></td>
+      <td>12.9</td>
+      <td><b>10.9</b></td>
+      <td><b>12.5</b></td>
+   </tr>
+   <tr>
+      <td>Noised BT</td>
+      <td>13.2</td>
+      <td>12.7</td>
+      <td>10.4</td>
+      <td>12.1</td>
+   </tr>
+   <tr>
+      <td>&nbsp;&nbsp;+SSE</td>
+      <td><b>13.6</b></td>
+      <td><b>13.2</b></td>
+      <td><b>10.5</b></td>
+      <td><b>12.4</b></td>
+   </tr>
+   <tr>
+      <td>Tagged BT</td>
+      <td>13.5</td>
+      <td>12.7</td>
+      <td>10.1</td>
+      <td>12.1</td>
+   </tr>
+   <tr>
+      <td>&nbsp;&nbsp;+SSE</td>
+      <td><b>13.6</b></td>
+      <td><b>13.3</b></td>
+      <td><b>10.6</b></td>
+      <td><b>12.5</b></td>
+   </tr>
+   <tr>
+      <td>FT</td>
+      <td>13.1</td>
+      <td>12.2</td>
+      <td>9.8</td>
+      <td>11.7</td>
+   </tr>
+   <tr>
+      <td>+Beam BT</td>
+      <td>13.3</td>
+      <td>12.4</td>
+      <td>10.2</td>
+      <td>12.0</td>
+   </tr>
+   <tr>
+      <td>&nbsp;&nbsp;&nbsp;+SSE</td>
+      <td><b>13.4</b></td>
+      <td><b>12.6</b></td>
+      <td>10.2</td>
+      <td><b>12.1</b></td>
+   </tr>
+</table>
 
 ## Using SSE to Boost your NMT
 
