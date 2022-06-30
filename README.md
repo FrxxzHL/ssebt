@@ -25,6 +25,31 @@ The sse model is traning fellow:
 3. Filter 10% pairs of <EN<sub>mt</sub>, EN> which differ the most. 
 4. Traning a typical transformer-based seq2seq model using pairs of <EN<sub>mt</sub>, EN><sub>filtered</sub>
 
+For training, we use fairseq (version=1.0.0a0), and the details of training parameters can be finded in the fellowing script.
+```shell
+   fairseq-train data-bin \
+    --fp16 \
+    --ddp-backend=no_c10d \
+    --arch transformer_wmt_en_de \
+    --save-dir ckpts --tensorboard-logdir tf-boards \
+    --optimizer adam --adam-betas '(0.9, 0.98)' --clip-norm 0.0 \
+    --lr 0.0005 --min-lr 1e-09 --lr-scheduler inverse_sqrt --warmup-init-lr 1e-07 --warmup-updates 4000 \
+    --encoder-layers 6 --decoder-layers 6 \
+    --encoder-embed-dim 1024 --encoder-ffn-embed-dim 4096 --encoder-attention-heads 16 \
+    --decoder-embed-dim 1024 --decoder-ffn-embed-dim 4096 --decoder-attention-heads 16 \
+    --dropout 0.3 --weight-decay 0.0 \
+    --criterion label_smoothed_cross_entropy --label-smoothing 0.1 \
+    --max-tokens 4096 \
+    --update-freq 8 \
+    --eval-bleu \
+    --eval-bleu-args '{"beam": 5, "max_len_a": 1.2, "max_len_b": 10}' \
+    --eval-bleu-detok moses \
+    --eval-bleu-remove-bpe \
+    --eval-bleu-print-samples \
+    --best-checkpoint-metric bleu --maximize-best-checkpoint-metric \
+    --save-interval-updates 2000 --keep-interval-updates 10 --max-epoch 100
+```
+
 Pretrained SSE model and resources is comming...
 
 ### PPL socre of different system
@@ -278,6 +303,7 @@ The results are shown in Table below:
 ### WMT18 EN-DE
 
 Bilingual: EN-DE 5.2M  Monolingual: DE 226M
+The training script is the same as SSE model.
 Original test set (O), Reverse test set (R) and combined test set (All) from WMT 2014-2017
 <table align="center">
    <tr>
