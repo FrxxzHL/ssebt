@@ -76,7 +76,7 @@ The results are shown in Table below:
       <td>69.3</td>
    </tr>
    <tr>
-      <td>+Beam BT</td>
+      <td>Beam BT</td>
       <td>146.0</td>
       <td>230.1</td>
       <td>61.7</td>
@@ -112,7 +112,7 @@ The results are shown in Table below:
       <td><b>52.8</b></td>
    </tr>
    <tr>
-      <td>+Sampling BT</td>
+      <td>Sampling BT</td>
       <td>61.9</td>
       <td>73.5</td>
       <td>50.4</td>
@@ -148,7 +148,7 @@ The results are shown in Table below:
       <td>46.2</td>
    </tr>
    <tr>
-      <td>+Noised BT</td>
+      <td>Noised BT</td>
       <td>73.0</td>
       <td>91.0</td>
       <td>55.0</td>
@@ -184,7 +184,7 @@ The results are shown in Table below:
       <td><b>48.3</b></td>
    </tr>
    <tr>
-      <td>+Tagged BT</td>
+      <td>Tagged BT</td>
       <td>72.4</td>
       <td>83.9</td>
       <td>60.9</td>
@@ -220,7 +220,7 @@ The results are shown in Table below:
       <td><b>50.2</b></td>
    </tr>
    <tr>
-      <td>+FT</td>
+      <td>FT</td>
       <td>81.3</td>
       <td>79.7</td>
       <td>82.9</td>
